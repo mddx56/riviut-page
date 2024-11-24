@@ -111,7 +111,7 @@ const Signin = () => {
                 </button>
               </div>
 
-              <div className="mt-12.5 border-t border-stroke py-5 text-center dark:border-strokedark">
+              <div className="mt-12.5 py-5 text-center">
          
               </div>
             </form>

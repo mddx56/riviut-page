@@ -32,14 +32,14 @@ const Footer = () => {
                   <Image
                     width={110}
                     height={80}
-                    src="/images/logo/logof.png"
+                    src="/images/logo/logo.png"
                     alt="Logo"
                     className="dark:hidden"
                   />
                   <Image
                     width={110}
                     height={80}
-                    src="/images/logo/logof.png"
+                    src="/images/logo/logo.png"
                     alt="Logo"
                     className="hidden dark:block"
                   />
@@ -50,13 +50,13 @@ const Footer = () => {
                 </p>
 
                 <p className="mb-1.5 text-sectiontitle uppercase tracking-[5px]">
-                  contact
+                  WhatsApp
                 </p>
                 <a
-                  href="#"
+                  href="https://wa.me/59169107848"
                   className="text-itemtitle font-medium text-black dark:text-white"
                 >
-                  hello@solid.com
+                  +591 69107848
                 </a>
               </motion.div>
 
@@ -266,17 +266,12 @@ const Footer = () => {
               <ul className="flex items-center gap-8">
                 <li>
                   <a href="#" className="hover:text-primary">
-                    English
+                    Privacidad
                   </a>
                 </li>
                 <li>
                   <a href="#" className="hover:text-primary">
-                    Privacy Policy
-                  </a>
-                </li>
-                <li>
-                  <a href="#" className="hover:text-primary">
-                    Support
+                    Soporte
                   </a>
                 </li>
               </ul>
