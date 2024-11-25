@@ -17,11 +17,11 @@ const Hero = () => {
               <h1 className="mb-5 pr-16 text-3xl font-bold text-black dark:text-white xl:text-hero ">
                 Clinica especializada en salud renal {"   "}
                 <span className="relative inline-block before:absolute before:bottom-2.5 before:left-0 before:-z-1 before:h-3 before:w-full before:bg-titlebg dark:before:bg-titlebgdark ">
-                  Reviut
+                  Riviut
                 </span>
               </h1>
               <p>
-                En Clínica Reviut, ofrecemos atención integral para prevenir,
+                En Clínica Riviut, ofrecemos atención integral para prevenir,
                 diagnosticar y tratar enfermedades renales. Con tecnología
                 avanzada y un equipo especializado, cuidamos tu salud renal de
                 forma personalizada, priorizando tu bienestar y calidad de vida.
