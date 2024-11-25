@@ -1,5 +1,7 @@
-import image1 from "@/public/images/user/user-01.png";
-import image2 from "@/public/images/user/user-02.png";
+import image1 from "@/public/images/user/user-04.svg";
+import image2 from "@/public/images/user/user-05.svg";
+import image3 from "@/public/images/user/user-03.svg";
+import image4 from "@/public/images/user/user-06.svg";
 import { Testimonial } from "@/types/testimonial";
 
 export const testimonialData: Testimonial[] = [
@@ -23,7 +25,7 @@ export const testimonialData: Testimonial[] = [
     id: 3,
     name: "Devid Martínez",
     designation: "Paciente",
-    image: image1,
+    image: image3,
     content:
       "La atención en Reviut es increíble. No solo me explicaron todo con claridad, sino que siempre me sentí acompañado en mi tratamiento.",
   },
@@ -31,7 +33,7 @@ export const testimonialData: Testimonial[] = [
     id: 4,
     name: "Jhon Aguilar",
     designation: "Paciente",
-    image: image2,
+    image: image4,
     content:
       "Después de años de problemas renales, finalmente encontré en Clínica Reviut un lugar donde me escucharon y me ofrecieron soluciones efectivas.",
   },

@@ -13,7 +13,7 @@ const SingleTestimonial = ({ review }: { review: Testimonial }) => {
           </h3>
           <p className="inline-flex items-center gap-2"><CircleUserRound width={18} height={18} />{designation}</p>
         </div>
-        <Image width={60} height={50} className="" src={image} alt={name} />
+        <Image width={60} height={50} className="overflow-hidden rounded-full bg-white" src={image} alt={name} />
       </div>
 
       <p>{content}</p>
