@@ -13,8 +13,8 @@ const Privacy = () => {
             <SectionHeader
               headerInfo={{
                 title: `PRIVACIDAD`,
-                subtitle: `tERM`,
-                description: `KKKKKKKKKKKKKKKKKKKKKKKKKKK.`,
+                subtitle: `Term`,
+                description: `...`,
               }}
             />
           </div>
