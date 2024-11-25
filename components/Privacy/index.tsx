@@ -22,7 +22,7 @@ const Privacy = () => {
         </div>
 
         <div className="relative mx-auto mt-15 max-w-[1207px] px-4 md:px-8 xl:mt-20 xl:px-0">
-          niolia puta
+          
         </div>
       </section>
       {/* <!-- ===== Pricing Table End ===== --> */}
