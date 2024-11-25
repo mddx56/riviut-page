@@ -26,9 +26,11 @@ export default function DocsPage() {
                 <h1>Historia</h1>
 
                 <p className="text-body-color dark:text-body-color-dark text-base">
-                iiiiiiiiii
+                  Clínica Riviut nació hace una década con la visión de brindar
+                  atención médica cercana y de calidad. Hoy es un referente en
+                  salud integral, combinando tecnología avanzada con un trato
+                  humano y personalizado.
                 </p>
-                
               </div>
             </div>
           </div>
