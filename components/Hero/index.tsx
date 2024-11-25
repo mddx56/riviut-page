@@ -1,6 +1,7 @@
 "use client";
-import { ArrowRight, Hospital } from "lucide-react";
+import { ArrowRight, Hospital, Search } from "lucide-react";
 import Image from "next/image";
+import Link from "next/link";
 
 const Hero = () => {
 
@@ -28,12 +29,13 @@ const Hero = () => {
 
               <div className="mt-10">
                   <div className="flex flex-wrap gap-5">
-                    <button
+                    <Link
+                    href={'/auth/signin'}
                       aria-label="get started button"
                       className="rounded-full inline-flex items-center gap-2.5 bg-black px-7.5 py-2.5 text-white duration-300 ease-in-out hover:bg-blackho dark:bg-btndark dark:hover:bg-blackho"
                     >
-                      Solicita tu cita <ArrowRight/>
-                    </button>
+                      Encontrar Especialistas <Search />
+                    </Link>
                   </div>
 
                 <p className="mt-5 text-black dark:text-white">

@@ -174,7 +174,7 @@ const Header = () => {
               href="/auth/signin"
               className="flex items-center justify-center gap-1 rounded-full bg-primary px-7.5 py-2.5 text-regular text-white duration-300 ease-in-out hover:bg-primaryho"
             >
-              Reservar Consulta <Stethoscope width={21} height={21} />
+              Solicitar cita <Stethoscope width={21} height={21} />
             </Link>
           </div>
         </div>
