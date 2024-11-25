@@ -1,13 +1,8 @@
 "use client";
+import { ArrowRight, Hospital } from "lucide-react";
 import Image from "next/image";
-import { useState } from "react";
 
 const Hero = () => {
-  const [email, setEmail] = useState("");
-
-  const handleSubmit = (e) => {
-    e.preventDefault();
-  };
 
   return (
     <>
@@ -15,8 +10,8 @@ const Hero = () => {
         <div className="mx-auto max-w-c-1390 px-4 md:px-8 2xl:px-0">
           <div className="flex lg:items-center lg:gap-8 xl:gap-32.5">
             <div className=" md:w-1/2">
-              <h4 className="mb-4.5 text-lg font-medium text-black dark:text-white">
-                Centro de nefrologia.
+              <h4 className="mb-4.5 text-lg inline-flex items-center gap-2.5 font-medium text-black dark:text-white">
+                Centro de nefrologia. <Hospital />
               </h4>
               <h1 className="mb-5 pr-16 text-3xl font-bold text-black dark:text-white xl:text-hero ">
                 Clinica especializada en salud renal {"   "}
@@ -35,9 +30,9 @@ const Hero = () => {
                   <div className="flex flex-wrap gap-5">
                     <button
                       aria-label="get started button"
-                      className="flex rounded-full bg-black px-7.5 py-2.5 text-white duration-300 ease-in-out hover:bg-blackho dark:bg-btndark dark:hover:bg-blackho"
+                      className="rounded-full inline-flex items-center gap-2.5 bg-black px-7.5 py-2.5 text-white duration-300 ease-in-out hover:bg-blackho dark:bg-btndark dark:hover:bg-blackho"
                     >
-                      Solicita tu cita
+                      Solicita tu cita <ArrowRight/>
                     </button>
                   </div>
 

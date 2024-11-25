@@ -1,5 +1,6 @@
 "use client";
 import { motion } from "framer-motion";
+import { ArrowRight, ShieldPlus } from "lucide-react";
 import Image from "next/image";
 import Link from "next/link";
 import { useState } from "react";
@@ -49,8 +50,8 @@ const Signin = () => {
             viewport={{ once: true }}
             className="animate_top rounded-lg bg-white px-7.5 pt-7.5 shadow-solid-8 dark:border dark:border-strokedark dark:bg-black xl:px-15 xl:pt-15"
           >
-            <h2 className="mb-15 text-center text-3xl font-semibold text-black dark:text-white xl:text-sectiontitle2">
-            Inicia Sesión en tu Cuenta
+            <h2 className="mb-15 inline-flex items-center gap-2.5 text-center text-3xl font-semibold text-black dark:text-white xl:text-sectiontitle2">
+            Inicia Sesión <ShieldPlus width={36} height={36} />
             </h2>
             <div className="flex flex-col">
               <div className="flex items-center gap-8">
@@ -62,7 +63,7 @@ const Signin = () => {
               <div className="mb-7.5 flex flex-col gap-7.5 lg:mb-12.5 lg:flex-row lg:justify-between lg:gap-14">
                 <input
                   type="text"
-                  placeholder="Email"
+                  placeholder="CI"
                   name="email"
                   value={data.email}
                   onChange={(e) => setData({ ...data, email: e.target.value })}
@@ -71,7 +72,7 @@ const Signin = () => {
 
                 <input
                   type="password"
-                  placeholder="Password"
+                  placeholder="Contraseña"
                   name="password"
                   value={data.password}
                   onChange={(e) =>
@@ -95,19 +96,7 @@ const Signin = () => {
                   className="inline-flex items-center gap-2.5 rounded-full bg-black px-6 py-3 font-medium text-white duration-300 ease-in-out hover:bg-blackho dark:bg-btndark dark:hover:bg-blackho"
                 >
                   INICIAR SESIÓN
-                  <svg
-                    className="fill-white"
-                    width="14"
-                    height="14"
-                    viewBox="0 0 14 14"
-                    fill="none"
-                    xmlns="http://www.w3.org/2000/svg"
-                  >
-                    <path
-                      d="M10.4767 6.16664L6.00668 1.69664L7.18501 0.518311L13.6667 6.99998L7.18501 13.4816L6.00668 12.3033L10.4767 7.83331H0.333344V6.16664H10.4767Z"
-                      fill=""
-                    />
-                  </svg>
+                  <ArrowRight width={21} height={21}/>
                 </button>
               </div>
 

@@ -3,6 +3,7 @@ import React from "react";
 import Image from "next/image";
 import { motion } from "framer-motion";
 import DoctorLottie from "../Lotties/DoctorLotite";
+import { ArrowRight, NotepadText } from "lucide-react";
 
 const CTA = () => {
   return (
@@ -29,10 +30,14 @@ const CTA = () => {
               viewport={{ once: true }}
               className="animate_left md:w-[70%] lg:w-1/2"
             >
-              <h2 className="mb-4 w-11/12 text-3xl font-bold text-black dark:text-white xl:text-sectiontitle4">
-                Historial Clínico
+              <h2 className="mb-4 w-11/12 inline-flex items-center gap-2.5 text-3xl font-bold text-black dark:text-white xl:text-sectiontitle4">
+                Historial Clínico <NotepadText  width={28} height={28}/>
               </h2>
-              <p>Registra y consulta fácilmente tus antecedentes médicos, diagnósticos, tratamientos y recetas en un solo lugar. Todo al alcance para un mejor seguimiento de tu salud.</p>
+              <p>
+                Registra y consulta fácilmente tus antecedentes médicos,
+                diagnósticos, tratamientos y recetas en un solo lugar. Todo al
+                alcance para un mejor seguimiento de tu salud.
+              </p>
             </motion.div>
             <motion.div
               variants={{
@@ -54,26 +59,12 @@ const CTA = () => {
             >
               <div className="flex items-center justify-end xl:justify-between">
                 <DoctorLottie />
-
                 <a
-                  href="/auth/signup"
+                  href="/auth/signin"
                   className="inline-flex items-center gap-2.5 rounded-full bg-black px-6 py-3 font-medium text-white hover:opacity-90 dark:bg-white dark:text-black"
                 >
                   Iniciar
-                  <Image
-                    width={20}
-                    height={20}
-                    src="/images/icon/icon-arrow-dark.svg"
-                    alt="Arrow"
-                    className="dark:hidden"
-                  />
-                  <Image
-                    width={20}
-                    height={20}
-                    src="/images/icon/icon-arrow-light.svg"
-                    alt="Arrow"
-                    className="hidden dark:block"
-                  />
+                  <ArrowRight width={20} height={20} />
                 </a>
               </div>
             </motion.div>

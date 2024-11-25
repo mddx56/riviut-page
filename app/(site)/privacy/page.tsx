@@ -1,9 +1,8 @@
-import React from "react";
-import Contact from "@/components/Contact";
+import Privacy from "@/components/Privacy";
 import { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Contacto Riviut",
+  title: "Privacidad Riviut",
   description: "Clinica",
   // other metadata
 };
@@ -11,7 +10,7 @@ export const metadata: Metadata = {
 const SupportPage = () => {
   return (
     <div className="pb-20 pt-40">
-      <Contact />
+      <Privacy />
     </div>
   );
 };

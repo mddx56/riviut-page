@@ -1,4 +1,5 @@
 import { Testimonial } from "@/types/testimonial";
+import { CircleUserRound } from "lucide-react";
 import Image from "next/image";
 
 const SingleTestimonial = ({ review }: { review: Testimonial }) => {
@@ -10,7 +11,7 @@ const SingleTestimonial = ({ review }: { review: Testimonial }) => {
           <h3 className="mb-1.5 text-metatitle3 text-black dark:text-white">
             {name}
           </h3>
-          <p>{designation}</p>
+          <p className="inline-flex items-center gap-2"><CircleUserRound width={18} height={18} />{designation}</p>
         </div>
         <Image width={60} height={50} className="" src={image} alt={name} />
       </div>

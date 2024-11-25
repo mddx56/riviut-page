@@ -1,11 +1,13 @@
 "use client";
 import Image from "next/image";
 import Link from "next/link";
+import { motion } from "framer-motion";
 import { usePathname } from "next/navigation";
 import { useEffect, useState } from "react";
 
 import ThemeToggler from "./ThemeToggler";
 import menuData from "./menuData";
+import { Stethoscope } from "lucide-react";
 
 const Header = () => {
   const [navigationOpen, setNavigationOpen] = useState(false);
@@ -37,22 +39,29 @@ const Header = () => {
     >
       <div className="relative mx-auto max-w-c-1390 items-center justify-between px-4 md:px-8 xl:flex 2xl:px-0">
         <div className="flex w-full items-center justify-between xl:w-1/4">
-          <a href="/">
-            <Image
-              src="/images/logo/logo.png"
-              alt="logo"
-              width={119.03}
-              height={30}
-              className="hidden w-full dark:block"
-            />
-            <Image
-              src="/images/logo/logo.png"
-              alt="logo"
-              width={119.03}
-              height={30}
-              className="w-full dark:hidden"
-            />
-          </a>
+          <motion.div
+            className="box"
+            whileHover={{ scale: 1.1 }}
+            whileTap={{ scale: 0.9 }}
+            transition={{ type: "spring", stiffness: 400, damping: 10 }}
+          >
+            <a href="/">
+              <Image
+                src="/images/logo/logo.png"
+                alt="logo"
+                width={119.03}
+                height={30}
+                className="hidden w-full dark:block"
+              />
+              <Image
+                src="/images/logo/logo.png"
+                alt="logo"
+                width={119.03}
+                height={30}
+                className="w-full dark:hidden"
+              />
+            </a>
+          </motion.div>
 
           {/* <!-- Hamburger Toggle BTN --> */}
           <button
@@ -163,9 +172,9 @@ const Header = () => {
 
             <Link
               href="/auth/signin"
-              className="flex items-center justify-center rounded-full bg-primary px-7.5 py-2.5 text-regular text-white duration-300 ease-in-out hover:bg-primaryho"
+              className="flex items-center justify-center gap-1 rounded-full bg-primary px-7.5 py-2.5 text-regular text-white duration-300 ease-in-out hover:bg-primaryho"
             >
-              Reservar Consulta 🔥
+              Reservar Consulta <Stethoscope width={21} height={21} />
             </Link>
           </div>
         </div>
