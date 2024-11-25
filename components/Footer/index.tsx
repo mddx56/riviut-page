@@ -47,7 +47,7 @@ const Footer = () => {
                 </a>
 
                 <p className="mb-10 mt-5">
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                  ...
                 </p>
                 <p className="mb-1.5 text-sectiontitle uppercase tracking-[5px]">
                   WhatsApp                  
@@ -90,7 +90,7 @@ const Footer = () => {
                         href="#"
                         className="mb-3 inline-block hover:text-primary"
                       >
-                        Home
+                        Inicio
                       </a>
                     </li>
                     <li>
@@ -98,25 +98,10 @@ const Footer = () => {
                         href="#"
                         className="mb-3 inline-block hover:text-primary"
                       >
-                        Product
+                        Especialidades
                       </a>
                     </li>
-                    <li>
-                      <a
-                        href="#"
-                        className="mb-3 inline-block hover:text-primary"
-                      >
-                        Careers
-                      </a>
-                    </li>
-                    <li>
-                      <a
-                        href="#"
-                        className="mb-3 inline-block hover:text-primary"
-                      >
-                        Pricing
-                      </a>
-                    </li>
+                    
                   </ul>
                 </motion.div>
 
@@ -139,7 +124,7 @@ const Footer = () => {
                   className="animate_top"
                 >
                   <h4 className="mb-9 text-itemtitle2 font-medium text-black dark:text-white">
-                    SÍGUENOS EN:
+                    Síguenos en:
                   </h4>
                   <ul className="flex items-center gap-5">
                     <li>

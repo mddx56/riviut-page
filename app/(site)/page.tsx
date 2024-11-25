@@ -25,12 +25,12 @@ export default function Home() {
       <Hero />
       {/*<Brands />*/}
       <Feature />
-      {/*<About />*/}
-      <FeaturesTab />
+      {/*<About />
+      <FeaturesTab />*/}
       <FunFact />
       {/*<Integration />*/}
       <CTA />
-      <FAQ />
+      {/*<FAQ />*/}
       <Testimonial />
       {/*<Pricing />*/}
       <Contact />

@@ -72,10 +72,9 @@ const Contact = () => {
               <div className="mb-7.5 flex flex-col gap-7.5 lg:flex-row lg:justify-between lg:gap-14">
                 <iframe
                   src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3799.0777799388843!2d-63.179893826364975!3d-17.788041275195464!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x93f1e9439141902d%3A0x5e1f36f1f1a89bbf!2sCL%C3%8DNICA%20RIVIUT!5e0!3m2!1ses-419!2sbo!4v1732512489203!5m2!1ses-419!2sbo"
-                  width="600"
                   height="450"
                   loading="lazy"
-                  className="rounded-lg"
+                  className="w-full rounded-lg"
                 ></iframe>
               </div>
 
