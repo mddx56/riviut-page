@@ -13,7 +13,7 @@ const Feature = () => {
           {/* <!-- Section Title Start --> */}
           <SectionHeader
             headerInfo={{
-              title: "SOLID FEATURES",
+              title: "SERVICIOS",
               subtitle: "Nuestros Servicios",
               description: `Prestamos servicios integrales de salud con altos estándares de calidad, mediante un modelo de atención centrado en la persona, brindado por profesionales de alta calidad técnico científica y caracterizado por un acompañamiento humanizado y oportuno para nuestros pacientes y sus familias.`,
             }}
