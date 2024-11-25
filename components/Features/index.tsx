@@ -14,10 +14,8 @@ const Feature = () => {
           <SectionHeader
             headerInfo={{
               title: "SOLID FEATURES",
-              subtitle: "Core Features of Solid",
-              description: `Lorem ipsum dolor sit amet, consectetur adipiscing elit. In
-            convallis tortor eros. Donec vitae tortor lacus. Phasellus aliquam
-            ante in maximus.`,
+              subtitle: "Nuestros Servicios",
+              description: `Prestamos servicios integrales de salud con altos estándares de calidad, mediante un modelo de atención centrado en la persona, brindado por profesionales de alta calidad técnico científica y caracterizado por un acompañamiento humanizado y oportuno para nuestros pacientes y sus familias.`,
             }}
           />
           {/* <!-- Section Title End --> */}
