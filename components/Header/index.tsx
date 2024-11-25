@@ -154,12 +154,12 @@ const Header = () => {
           <div className="mt-7 flex items-center gap-6 xl:mt-0">
             <ThemeToggler />
 
-            <Link
+            {/*<Link
               href="/auth/signup"
               className="text-regular font-medium text-waterloo hover:text-primary"
             >
               Descarga App 🌟
-            </Link>
+            </Link>*/}
 
             <Link
               href="/auth/signin"

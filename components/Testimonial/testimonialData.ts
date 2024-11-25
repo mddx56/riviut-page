@@ -5,34 +5,34 @@ import { Testimonial } from "@/types/testimonial";
 export const testimonialData: Testimonial[] = [
   {
     id: 1,
-    name: "Devid Smith",
-    designation: "Founter @democompany",
+    name: "Mario López",
+    designation: "Paciente",
     image: image1,
     content:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris hendrerit, ligula sit amet cursus tincidunt, lorem sem elementum nisi, convallis fringilla ante nibh non urna.",
+      "El diagnóstico temprano que recibí aquí marcó la diferencia. Estoy agradecida por su profesionalismo y el apoyo durante todo el proceso.",
   },
   {
     id: 2,
-    name: "Jhon Abraham",
-    designation: "Founter @democompany",
+    name: "Carlos Hernández",
+    designation: "Paciente",
     image: image2,
     content:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris hendrerit, ligula sit amet cursus tincidunt, lorem sem elementum nisi, convallis fringilla ante nibh non urna.",
+      "Gracias a Clínica Reviut, recuperé mi calidad de vida. Su equipo me ayudó a controlar mi insuficiencia renal con un tratamiento eficaz y un trato humano excepcional.",
   },
   {
     id: 3,
-    name: "Devid Smith",
-    designation: "Founter @democompany",
+    name: "Devid Martínez",
+    designation: "Paciente",
     image: image1,
     content:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris hendrerit, ligula sit amet cursus tincidunt, lorem sem elementum nisi, convallis fringilla ante nibh non urna.",
+      "La atención en Reviut es increíble. No solo me explicaron todo con claridad, sino que siempre me sentí acompañado en mi tratamiento.",
   },
   {
     id: 4,
-    name: "Jhon Abraham",
-    designation: "Founter @democompany",
+    name: "Jhon Aguilar",
+    designation: "Paciente",
     image: image2,
     content:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris hendrerit, ligula sit amet cursus tincidunt, lorem sem elementum nisi, convallis fringilla ante nibh non urna.",
+      "Después de años de problemas renales, finalmente encontré en Clínica Reviut un lugar donde me escucharon y me ofrecieron soluciones efectivas.",
   },
 ];

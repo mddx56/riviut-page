@@ -30,13 +30,9 @@ const CTA = () => {
               className="animate_left md:w-[70%] lg:w-1/2"
             >
               <h2 className="mb-4 w-11/12 text-3xl font-bold text-black dark:text-white xl:text-sectiontitle4">
-                Join With Us Today & Increase Your Productivity
+                Historial Clínico
               </h2>
-              <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. In
-                convallis tortor eros. Donec vitae tortor lacus. Phasellus
-                aliquam ante in maximus.
-              </p>
+              <p>Registra y consulta fácilmente tus antecedentes médicos, diagnósticos, tratamientos y recetas en un solo lugar. Todo al alcance para un mejor seguimiento de tu salud.</p>
             </motion.div>
             <motion.div
               variants={{
@@ -57,7 +53,7 @@ const CTA = () => {
               className="animate_right lg:w-[45%]"
             >
               <div className="flex items-center justify-end xl:justify-between">
-                  <DoctorLottie />
+                <DoctorLottie />
 
                 <a
                   href="/auth/signup"

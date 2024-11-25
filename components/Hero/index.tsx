@@ -19,39 +19,30 @@ const Hero = () => {
                 Centro de nefrologia.
               </h4>
               <h1 className="mb-5 pr-16 text-3xl font-bold text-black dark:text-white xl:text-hero ">
-              Clinica especializada en salud renal {"   "}
+                Clinica especializada en salud renal {"   "}
                 <span className="relative inline-block before:absolute before:bottom-2.5 before:left-0 before:-z-1 before:h-3 before:w-full before:bg-titlebg dark:before:bg-titlebgdark ">
                   Reviut
                 </span>
               </h1>
               <p>
-                Solid Pro - Packed with all the key integrations you need for
-                swift SaaS startup launch, including - Auth, Database, Sanity
-                Blog, Essential Components, Pages and More. Built-winth -
-                Next.js 13, React 18 and TypeScript.
+                En Clínica Reviut, ofrecemos atención integral para prevenir,
+                diagnosticar y tratar enfermedades renales. Con tecnología
+                avanzada y un equipo especializado, cuidamos tu salud renal de
+                forma personalizada, priorizando tu bienestar y calidad de vida.
               </p>
 
               <div className="mt-10">
-                <form onSubmit={handleSubmit}>
                   <div className="flex flex-wrap gap-5">
-                    <input
-                      value={email}
-                      onChange={(e) => setEmail(e.target.value)}
-                      type="text"
-                      placeholder="Enter your email address"
-                      className="rounded-full border border-stroke px-6 py-2.5 shadow-solid-2 focus:border-primary focus:outline-none dark:border-strokedark dark:bg-black dark:shadow-none dark:focus:border-primary"
-                    />
                     <button
                       aria-label="get started button"
                       className="flex rounded-full bg-black px-7.5 py-2.5 text-white duration-300 ease-in-out hover:bg-blackho dark:bg-btndark dark:hover:bg-blackho"
                     >
-                      Get Started
+                      Solicita tu cita
                     </button>
                   </div>
-                </form>
 
                 <p className="mt-5 text-black dark:text-white">
-                  Try for free no credit card required.
+                  ..
                 </p>
               </div>
             </div>
@@ -81,13 +72,13 @@ const Hero = () => {
                 />
                 <div className=" relative aspect-[700/444] w-full">
                   <Image
-                    className="shadow-solid-l rounded-lg dark:hidden"
+                    className="rounded-lg shadow-solid-l dark:hidden"
                     src="/images/hero/hero.webp"
                     alt="Hero"
                     fill
                   />
                   <Image
-                    className="hidden shadow-solid-l rounded-lg dark:block"
+                    className="hidden rounded-lg shadow-solid-l dark:block"
                     src="/images/hero/hero.webp"
                     alt="Hero"
                     fill
